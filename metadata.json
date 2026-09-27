@@ -1,0 +1,6 @@
+{
+  "name": "Mariage Mohamed & Khadidja — الدعوة الرسمية",
+  "description": "Invitation de mariage de prestige pour Mohamed & Khadidja à Tlemcen, Algérie. دعوة زفاف إلكترونية راقية",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

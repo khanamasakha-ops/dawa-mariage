@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+@theme {
+  --font-amiri: 'Amiri', serif, system-ui;
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-display: 'Cinzel', serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  
+  --color-ivory: #FAF7F2;
+  --color-ivory-light: #FDFBF7;
+  --color-ivory-warm: #F4ECE1;
+  --color-gold: #C5A059;
+  --color-gold-light: #E8D39E;
+  --color-gold-metallic: #D4AF37;
+  --color-gold-dark: #8C6D2B;
+  --color-burgundy: #721B29;
+  --color-burgundy-soft: #852233;
+  --color-burgundy-deep: #4E101B;
+  --color-ink: #221D1A;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+  }
+}
+
+/* Custom Gold Shimmer and Foil Accents */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #B38728 0%, #FBF5B7 35%, #DAA520 70%, #AA771C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #C5A059 0%, #E8D39E 50%, #B89246 100%);
+}
+
+.gold-foil-border {
+  border-image: linear-gradient(to bottom right, #C5A059, #F5E6B8, #9A7B38) 1;
+}
+
+.arabic-text {
+  font-family: 'Amiri', serif;
+  line-height: 1.8;
+}
+
+.latin-title {
+  font-family: 'Cinzel', serif;
+  letter-spacing: 0.12em;
+}
+
+.editorial-serif {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+/* Subtle Moorish Arch Pattern */
+.bg-andalusian-pattern {
+  background-color: #FAF7F2;
+  background-image: radial-gradient(#C5A059 0.65px, transparent 0.65px), radial-gradient(#C5A059 0.65px, #FAF7F2 0.65px);
+  background-size: 32px 32px;
+  background-position: 0 0, 16px 16px;
+  background-opacity: 0.15;
+}
+
+/* Wax Seal Realistic Shadows & Bevel */
+.wax-seal {
+  background: radial-gradient(circle at 35% 35%, #D4AF37 0%, #AA7A1E 55%, #7A5310 100%);
+  box-shadow: 
+    0 10px 25px -5px rgba(114, 27, 41, 0.25),
+    0 6px 12px -2px rgba(197, 160, 89, 0.4),
+    inset 0 2px 4px rgba(255, 255, 255, 0.6),
+    inset 0 -3px 6px rgba(0, 0, 0, 0.4);
+}
+
+.wax-seal:hover {
+  filter: brightness(1.05);
+  box-shadow: 
+    0 14px 30px -5px rgba(114, 27, 41, 0.35),
+    0 8px 16px -2px rgba(197, 160, 89, 0.5),
+    inset 0 2px 5px rgba(255, 255, 255, 0.7),
+    inset 0 -3px 6px rgba(0, 0, 0, 0.35);
+}
+
+/* Delicate Hairline Border for Luxury Cards */
+.card-luxury {
+  background-color: rgba(253, 251, 247, 0.92);
+  border: 1px solid rgba(197, 160, 89, 0.28);
+  box-shadow: 0 8px 32px -4px rgba(34, 29, 26, 0.04), 0 2px 8px -2px rgba(197, 160, 89, 0.08);
+}
+
+/* Envelope Flap 3D transform */
+.perspective-1000 {
+  perspective: 1000px;
+}
