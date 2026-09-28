@@ -58,7 +58,7 @@ export interface WeddingConfig {
   };
   contact: {
     whatsappNumber: string; // e.g., "213500000000" (digits only for wa.me)
-    whatsappDisplay: string; // e.g., "+213 5 XX XX XX XX"
+    whatsappDisplay: string; // e.g., "+213657176667"
     defaultMessage: string;
   };
   quranVerse: {
