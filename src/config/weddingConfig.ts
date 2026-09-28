@@ -130,12 +130,12 @@ export const INITIAL_WEDDING_CONFIG: WeddingConfig = {
     calendarDescription: "Célébration du mariage de Mohamed & Khadidja à la Salle des fêtes KARADJA, Tlemcen.",
   },
   contact: {
-    whatsappNumber: "213500000000", // Replace with real number
-    whatsappDisplay: "+213 5 XX XX XX XX",
+    whatsappNumber: "213657176667",
+    whatsappDisplay: "+213 657 176 667",
     defaultMessage: "Bonjour, je confirme ma présence au mariage de Mohamed & Khadidja le 17 octobre 2026.",
   },
   quranVerse: {
-    arabic: "«وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً»",
+    arabic: "«وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُمْ مَوَدَّةً وَرَحْمَةً»",
     surah: "سورة الروم — الآية 21",
     french: "« Et parmi Ses signes, Il a créé de vous, pour vous, des épouses afin que vous trouviez auprès d'elles le repos, et Il a établi entre vous de l'affection et de la miséricorde. »",
     sourceFr: "Sourate Ar-Rum — Verset 21",
