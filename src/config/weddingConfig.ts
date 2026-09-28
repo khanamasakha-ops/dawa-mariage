@@ -57,7 +57,7 @@ export interface WeddingConfig {
     calendarDescription: string;
   };
   contact: {
-    whatsappNumber: string; // e.g., "213500000000" (digits only for wa.me)
+    whatsappNumber: string; // e.g., "+213657176667" (digits only for wa.me)
     whatsappDisplay: string; // e.g., "+213657176667"
     defaultMessage: string;
   };
